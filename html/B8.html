@@ -1,16 +1,66 @@
 <!DOCTYPE html>
 <html lang="vi">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bài 8</title>
+
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        .header {
+            text-align: center;
+            display: grid;
+            gap: 12px;
+            padding: 20px;
+        }
+
+        .content {
+            display: grid;
+            gap: 2px;
+            justify-content: center;
+        }
+
+        .footer {
+            display: grid;
+            place-items: center;
+        }
+
+        .footer hr {
+            width: 18%;
+            margin: auto;
+        }
+
+        .footer p {
+            display: grid;
+            justify-content: center;
+            text-align: right;
+        }
+
+        .footer h1 {
+            text-align: center;
+            color: red;
+        }
+    </style>
+
+
 </head>
+
 <body>
-    <h3>NGÔN NGỮ HTML</h3>
-    <h4>(Hyper text Markup language)</h4>
-    
-    <p><strong>*<u>Cấu trúc trang HTML</u>:</strong></p>
-    <pre>
+    <header class="header">
+        <h3>NGÔN NGỮ HTML</h3>
+        <h4>(Hyper text Markup language)</h4>
+    </header>
+
+
+    <div class="content">
+        <p><strong>*<u>Cấu trúc trang HTML</u>:</strong></p>
+        <pre>
     &lt;html>
     &lt;head>
     &lt;title>Tiêu đề trang&lt;/title>
@@ -20,27 +70,36 @@
     &lt;/body>
     &lt;/html>
     </pre>
-    
-    <p><strong>*<u>Các thẻ lệnh</u>:</strong></p>
-    <pre>
+
+        <p><strong>*<u>Các thẻ lệnh</u>:</strong></p>
+        <pre>
     &lt;b>chữ đậm&lt;/b>
     &lt;i>chữ nghiêng&lt;/i>
     &lt;u>chữ gạch chân&lt;/u>
     </pre>
 
-    <p><strong>*<u>Liên kết</u>:</strong></p>
-    <pre>
+        <p><strong>*<u>Liên kết</u>:</strong></p>
+        <pre>
+    <strong>
         &lt;a href="URL" target="_target">
                 &lt;img src="#">
         &lt;/a>
+    </strong>
     </pre>
+    </div>
 
-    <hr>
-    <p>
-        <i>Lớp lập trình viên quốc tế Tata iniotech</i>
-        <br>
-        <i>Môn kỹ thuật thiết kế web cơ bản</i>
-    </p>
+    <footer class="footer">
+        <hr align="left">
+        <p>
+            <i>Lớp lập trình viên quốc tế Tata iniotech</i>
+            <i>Môn kỹ thuật thiết kế web cơ bản</i>
+        </p>
+
+        <h1>
+            Đang sử dụng CSS, vui lòng không copy
+        </h1>
+    </footer>
 
 </body>
+
 </html>
