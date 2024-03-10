@@ -14,39 +14,43 @@
 
 <body>
     <font face="Varela Round">
-        <form name="commants" method="get" action="#">
-            <table width="19%">
-                <caption>
-                    <h4>ĐÓNG GÓP Ý KIẾN</h4>
-                </caption>
+        <fieldset>
+            <form name="commants" method="get" action="#">
+                <table>
+                    <caption>ĐÓNG GÓP Ý KIẾN</caption>
 
-                <tr>
-                    <td width="80px">
-                        <label for="username">Họ và tên:</label>
-                    </td>
-                    <td><input type="text" name="username" id="username" placeholder="Họ tên của mày"></td>
-                </tr>
+                    <tr>
+                        <td>
+                            <label for="username">Họ và tên:</label>
+                        </td>
+                        <td>
+                            <input type="text" name="username" id="username" value="">
+                        </td>
+                    </tr>
 
-                <tr>
-                    <td colspan="2">Nội dung góp ý</td>
-                </tr>
+                    <tr>
+                        <td colspan="2">
+                            <label for="feedback">Nội dung góp ý</label>
+                        </td>
+                    </tr>
 
-                <tr>
-                    <td colspan="2" align="right">
-                        <textarea name="feedback" id="feedback" cols="35" rows="6"
-                            placeholder="Mày thích góp ý không?"></textarea>
-                    </td>
-                </tr>
+                    <tr>
+                        <td></td>
+                        <td colspan="2" align="right">
+                            <textarea name="feedback" id="feedback" cols="50" rows="10"></textarea>
+                        </td>
+                    </tr>
 
-                <tr>
-                    <td colspan="2" align="center">
-                        <button type="submit" name="submitbutton" id="send">Gửi đi</button>
-                        <button type="reset" name="resetbutton" id="retype">Nhập lại</button>
-                    </td>
-                </tr>
+                    <tr>
+                        <td colspan="2" align="center">
+                            <input type="submit" value="Gửi đi">
+                            <input type="reset" value="Nhập lại">
+                        </td>
+                    </tr>
 
-            </table>
-        </form>
+                </table>
+            </form>
+        </fieldset>
     </font>
 </body>
 
