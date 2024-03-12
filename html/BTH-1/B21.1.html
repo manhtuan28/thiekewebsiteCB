@@ -1,15 +1,81 @@
 <!DOCTYPE html>
 <html lang="vi">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
     <title>Bài 21</title>
 </head>
-<body>
-    
-    <font face="">
 
+<body>
+
+    <font face="Work Sans">
+        <form action="" method="get">
+            <table align="center" width="27%">
+                <tr>
+                    <td colspan="2" align="right"><b>ĐĂNG KÝ THI TIẾNG HÁT TRUYỀN HÌNH</b></td>
+                </tr>
+                <tr>
+                    <td align="right">
+                        <label for="user">Họ tên</label>
+                    </td>
+                    <td>
+                        <input type="text">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td align="right"><label for="home">Hộ khẩu</label></td>
+                    <td>
+                        <select name="city" id="city">
+                            <option value="HCM">Tp. Ho Chi Minh</option>
+                            <option value="HN">Tp. Ha Noi</option>
+                            <option value="VT">Tp. Viet Tri</option>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td align="right"><label for="sex">Giới tinh</label></td>
+                    <td>
+                        <input type="radio" id="male" name="sex" value="male">
+                        <label for="male">Nam</label>
+                        <input type="radio" id="female" name="sex" value="female">
+                        <label for="female">Nữ</label>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td align="right"><label for="image">Hình</label></td>
+                    <td>
+                        <input type="text">
+                        <input type="button" value="Browse...">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td nowrap align="right">
+                        <label for="list-music">Danh sách bài hát đăng ký</label>
+                    </td>
+                    <td width="60%">
+                        <textarea name="" id="" cols="25" rows="5"></textarea>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td colspan="2" align="center">
+                        <input type="submit" value="Dang Ky">
+                        <input type="reset" value="Xoa">
+                    </td>
+                </tr>
+            </table>
+        </form>
     </font>
 
 </body>
+
 </html>
