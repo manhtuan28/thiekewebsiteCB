@@ -5,17 +5,18 @@ body {
 }
 
 h1 {
-    color:  chartreuse;
+    color: chartreuse;
 }
 
 h2 {
-    color: deeppink;
+    color: violet;
 }
 
 p {
-    color: #5218FA;
+    color: blue;
 }
 
 span {
-    color: #5218FA;
+    background-color: yellow;
+    font-weight: 900;
 }

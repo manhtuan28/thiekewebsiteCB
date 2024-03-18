@@ -5,27 +5,29 @@ body {
     font-size: 22px;
 }
 
-.info {
-    border: 1px solid black;
-    float: right;
-    text-align: center;
-    font-style: italic;
-    font-size: x-small;
-    width: 15%;
-    margin: 20px;
-}
-
-.info img {
-    width: 77%;
-    padding-top: 10px;
-    padding-bottom: 20px;
-}
-
-.info span {
-    display: block;
-    padding-bottom: 15px;
-}
-
 p {
+    font-size: 35px;
     text-align: justify;
+}
+
+.container {
+    border: 1px solid #ccc;
+    width: 250px;
+    height: 390px;
+    float: right;
+    margin: 20px;
+    overflow: hidden;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.girl-logo {
+    width: 90%;
+}
+
+.caption {
+    display: block;
+    font-size: 15px;
+    font-style: italic;
+    padding-top: 25px;
 }
