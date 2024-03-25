@@ -8,149 +8,149 @@
     <style>
       body {
         font-size: 25px;
+        margin: 25px;
       }
 
       h3 {
         text-transform: uppercase;
       }
 
-      .table1 {
+      table,
+      th,
+      td {
+        border: 1px solid black;
+        border-spacing: 0;
+      }
+
+      table {
         width: 50%;
         text-align: center;
       }
 
-      .th-top {
+      .th-bg {
         background-color: #ccc;
       }
 
-      .info {
+      .th-text {
         font-style: italic;
       }
 
-      .month-bot {
-        text-align: left;
+      .info {
+        width: 340px;
+        height: 120px;
+        padding-top: 12px;
       }
 
-      .span1 {
-        font-weight: 900;
-        text-decoration: underline;
+      .info-label {
+        width: 145px;
+        height: 120px;
+        float: left;
+      }
+      .info-inp {
+        width: 195px;
+        height: 120px;
+        float: left;
       }
 
-      .input-text {
-        height: 30px;
-        margin: 20px;
+      .info-inp input {
+        padding: 6px;
+        margin-bottom: 21px;
+      }
+
+      .lits-card {
+        margin-left: 75px;
+      }
+
+      .bnt {
+        margin-left: 35px;
+        padding-top: 20px;
+      }
+
+      .bnt button {
+        width: 90px;
+        height: 40px;
       }
     </style>
   </head>
   <body>
-    <table border="1" cellspacing="0" class="table1">
-      <h3>Bảng giá đăng ký cước dịch vụ internet</h3>
+    <div class="container">
+      <h3>bảng giá dịch vụ internet</h3>
 
-      <tr>
-        <th class="th-top" colspan="2">VNN</th>
-        <th class="th-top" colspan="2">FPT</th>
-      </tr>
-      <tr>
-        <th class="th-top" colspan="2">Cước truy cập Internet</th>
-        <th class="th-top" colspan="2">Thẻ kết nối Internet</th>
-      </tr>
-      <tr>
-        <th class="info">Thời gian</th>
-        <th class="info">Cước truy cập</th>
-        <th class="info">Số giờ kết nối</th>
-        <th class="info">Mệnh giá thẻ</th>
-      </tr>
-      <tr>
-        <td>0h-07h</td>
-        <td>100</td>
-        <td>14h</td>
-        <td>100.00đ</td>
-      </tr>
-      <tr>
-        <td>07h-19h</td>
-        <td>210</td>
-        <td>33h</td>
-        <td>200.00đ</td>
-      </tr>
-      <tr>
-        <td>19h-24h</td>
-        <td>150</td>
-        <td>55h</td>
-        <td>300.00đ</td>
-      </tr>
-      <tr>
-        <td colspan="2" class="month-bot">
-          Cước thuê bao trong tháng: <span class="span1">27.273đ/tháng</span>
-        </td>
-        <td>100h</td>
-        <td>500.000đ</td>
-      </tr>
-    </table>
-
-    <form action="">
-      <table class="table2">
-        <h3>Nhập thông tin mua thẻ</h3>
+      <table>
         <tr>
-          <td>
-            <label for="">Họ và tên:</label>
-          </td>
-          <td>
-            <input class="input-text" type="text" />
-          </td>
+          <th class="th-bg" colspan="2">VNN</th>
+          <th class="th-bg" colspan="2">FPT</th>
         </tr>
         <tr>
-          <td>
-            <label for="">Số CMND:</label>
-          </td>
-          <td>
-            <input class="input-text" type="text" />
-          </td>
-        </tr>
-
-        <tr>
-          <td>
-            <p><a href="#">Đăng ký</a></p>
-          </td>
+          <th class="th-bg" colspan="2">Cước truy cập internet</th>
+          <th class="th-bg" colspan="2">Thẻ kết nối internet</th>
         </tr>
         <tr>
-          <td>Mua thẻ:</td>
+          <th class="th-text">Thời gian</th>
+          <th class="th-text">Cước truy cập(đ/ph)</th>
+          <th class="th-text">Số giờ kết nối</th>
+          <th class="th-text">Mệnh giá thẻ</th>
         </tr>
         <tr>
-          <td></td>
-          <td>
-            <input type="radio" />
-            <label for="">100.000đ</label>
-          </td>
+          <td>0h-07h</td>
+          <td>100</td>
+          <td>14h</td>
+          <td>100.000đ</td>
         </tr>
         <tr>
-          <td></td>
-          <td>
-            <input type="radio" />
-            <label for="">100.000đ</label>
-          </td>
+          <td>07h-19h</td>
+          <td>210</td>
+          <td>33h</td>
+          <td>200.000đ</td>
         </tr>
         <tr>
-          <td></td>
-          <td>
-            <input type="radio" />
-            <label for="">100.000đ</label>
-          </td>
+          <td>19h-24h</td>
+          <td>150</td>
+          <td>55h</td>
+          <td>300.000đ</td>
         </tr>
         <tr>
-          <td></td>
-          <td>
-            <input type="radio" />
-            <label for="">100.000đ</label>
+          <td colspan="2" style="text-align: left">
+            Cước thuê bao trong tháng:<span
+              style="font-weight: 900; text-decoration: underline"
+              >27.273đ/tháng</span
+            >
           </td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>
-            <button>Cập nhâth</button>
-            <button>Hủy bỏ</button>
-          </td>
+          <td>110h</td>
+          <td>500.000đ</td>
         </tr>
       </table>
-    </form>
+
+      <h3>nhập thông tin mua thẻ</h3>
+
+      <div class="info">
+        <div class="info-label">
+          <label for="user">Họ và tên:</label>
+          <br />
+          <br />
+          <label for="cmnd">Số CMND:</label>
+        </div>
+        <div class="info-inp">
+          <input type="text" />
+          <input type="text" />
+        </div>
+      </div>
+
+      <p><a href="#">Đăng ký:</a></p>
+
+      <div class="card">
+        <span>Mua thẻ:</span>
+        <div class="lits-card">
+          <input type="radio" name="card" />100.000đ<br />
+          <input type="radio" name="card" />200.000đ<br />
+          <input type="radio" name="card" />300.000đ<br />
+          <input type="radio" name="card" />500.000đ<br />
+        </div>
+        <div class="bnt">
+          <button>Cập nhật</button>
+          <button>Hủy bỏ</button>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
