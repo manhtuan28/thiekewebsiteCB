@@ -1,159 +1,156 @@
 <!DOCTYPE html>
-<html lang="vi">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/css/B4.css" />
-    <title>Bài 4</title>
+    <title>Document</title>
 
     <style>
       body {
-        font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-          "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-        margin-left: 50px;
+        font-size: 25px;
       }
 
-      table {
-        width: 800px;
-        border-collapse: collapse;
+      h3 {
+        text-transform: uppercase;
       }
 
-      caption {
-        text-align: left;
-        font-weight: 900;
-        background-color: tan;
-        padding: 2px;
-      }
-
-      table,
-      th,
-      td {
-        border: 1px solid black;
-        padding: 5px;
-      }
-
-      td {
+      .table1 {
+        width: 50%;
         text-align: center;
       }
 
-      th {
-        background-color: tomato;
+      .th-top {
+        background-color: #ccc;
       }
 
-      .th1 {
-        background-color: white;
+      .info {
         font-style: italic;
       }
 
-      .info-card {
-        width: 14%;
+      .month-bot {
+        text-align: left;
       }
 
-      .info-inp {
-        width: 44%;
-        height: 21px;
-        margin: 12px;
-        margin-left: 41px;
+      .span1 {
+        font-weight: 900;
+        text-decoration: underline;
       }
 
-      .container-card {
-        width: 100%;
-        padding-top: 12px;
-      }
-
-      .list-card {
-        padding-left: 50px;
-      }
-
-      .up-cen {
-        display: flex;
-        justify-content: space-around;
-        padding-right: 40px;
-        padding-top: 20px;
-      }
-
-      .up-cen button {
-        height: 35px;
+      .input-text {
+        height: 30px;
+        margin: 20px;
       }
     </style>
   </head>
-
   <body>
-    <table>
-      <caption>
-        BẢNG GIÁ ĐĂNG KÝ CƯỚC DỊCH VỤ INTERNET
-      </caption>
+    <table border="1" cellspacing="0" class="table1">
+      <h3>Bảng giá đăng ký cước dịch vụ internet</h3>
+
       <tr>
-        <th colspan="2">VNN</th>
-        <th colspan="2">FPT</th>
+        <th class="th-top" colspan="2">VNN</th>
+        <th class="th-top" colspan="2">FPT</th>
       </tr>
       <tr>
-        <th colspan="2">Cuớc truy cập Internet</th>
-        <th colspan="2">Thẻ kết nối Internet</th>
+        <th class="th-top" colspan="2">Cước truy cập Internet</th>
+        <th class="th-top" colspan="2">Thẻ kết nối Internet</th>
       </tr>
       <tr>
-        <th class="th1">Thời gian</th>
-        <th class="th1">Cước truy cập</th>
-        <th class="th1">Số giờ kết nối</th>
-        <th class="th1">Mệnh giá thẻ</th>
+        <th class="info">Thời gian</th>
+        <th class="info">Cước truy cập</th>
+        <th class="info">Số giờ kết nối</th>
+        <th class="info">Mệnh giá thẻ</th>
       </tr>
       <tr>
         <td>0h-07h</td>
         <td>100</td>
         <td>14h</td>
-        <td>100.000đ</td>
+        <td>100.00đ</td>
       </tr>
       <tr>
         <td>07h-19h</td>
         <td>210</td>
         <td>33h</td>
-        <td>200.000đ</td>
+        <td>200.00đ</td>
       </tr>
       <tr>
         <td>19h-24h</td>
         <td>150</td>
         <td>55h</td>
-        <td>300.000đ</td>
+        <td>300.00đ</td>
       </tr>
       <tr>
-        <td colspan="2">
-          Cước thuê bao trong tháng: <b><u>27.273đ/tháng</u></b>
+        <td colspan="2" class="month-bot">
+          Cước thuê bao trong tháng: <span class="span1">27.273đ/tháng</span>
         </td>
-        <td>110h</td>
+        <td>100h</td>
         <td>500.000đ</td>
       </tr>
     </table>
 
-    <form action="" method="get" class="info-card">
-      <h3>NHẬP THÔNG TIN MUA THẺ</h3>
+    <form action="">
+      <table class="table2">
+        <h3>Nhập thông tin mua thẻ</h3>
+        <tr>
+          <td>
+            <label for="">Họ và tên:</label>
+          </td>
+          <td>
+            <input class="input-text" type="text" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="">Số CMND:</label>
+          </td>
+          <td>
+            <input class="input-text" type="text" />
+          </td>
+        </tr>
 
-      <div class="info">
-        <label for="user">Họ và tên:</label>
-        <input class="info-inp" type="text" />
-        <label for="cmnd">Số CMND:</label>
-        <input class="info-inp" type="text" />
-
-        <a href="#">Đăng ký:</a>
-
-        <div class="container-card">
-          <span>Mua thẻ:</span><br />
-          <div class="list-card">
-            <input class="card-inp" type="radio" name="menhgia" />
-            <label for="100">100.000đ</label><br />
-            <input class="card-inp" type="radio" name="menhgia" />
-            <label for="200">200.000đ</label><br />
-            <input class="card-inp" type="radio" name="menhgia" />
-            <label for="300">300.000đ</label><br />
-            <input class="card-inp" type="radio" name="menhgia" />
-            <label for="500">500.000đ</label><br />
-          </div>
-
-          <div class="up-cen">
-            <button>Cập nhật</button>
-            <button>Hủy Bỏ</button>
-          </div>
-        </div>
-      </div>
+        <tr>
+          <td>
+            <p><a href="#">Đăng ký</a></p>
+          </td>
+        </tr>
+        <tr>
+          <td>Mua thẻ:</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>
+            <input type="radio" />
+            <label for="">100.000đ</label>
+          </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>
+            <input type="radio" />
+            <label for="">100.000đ</label>
+          </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>
+            <input type="radio" />
+            <label for="">100.000đ</label>
+          </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>
+            <input type="radio" />
+            <label for="">100.000đ</label>
+          </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>
+            <button>Cập nhâth</button>
+            <button>Hủy bỏ</button>
+          </td>
+        </tr>
+      </table>
     </form>
   </body>
 </html>
