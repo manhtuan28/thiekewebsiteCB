@@ -1,61 +1,64 @@
 body {
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 25px;
+  margin: 25px;
 }
 
-table {
-  width: 800px;
-  border-collapse: collapse;
-}
-
-caption {
-  text-align: left;
-  font-weight: 900;
-  background-color: tan;
+h3 {
+  text-transform: uppercase;
 }
 
 table,
 th,
 td {
   border: 1px solid black;
-  padding: 5px;
+  border-spacing: 0;
 }
 
-td {
+table {
+  width: 50%;
   text-align: center;
 }
 
-th {
-  background-color: tomato;
+.th-bg {
+  background-color: #ccc;
 }
 
-.info-card {
-  width: 14%;
+.th-text {
+  font-style: italic;
 }
 
-.info-inp {
-  width: 44%;
-  height: 21px;
-  margin: 12px;
-  margin-left: 41px;
-}
-
-.container-card {
-  width: 100%;
+.info {
+  width: 340px;
+  height: 120px;
   padding-top: 12px;
 }
 
-.list-card {
-  padding-left: 50px;
+.info-label {
+  width: 145px;
+  height: 120px;
+  float: left;
+}
+.info-inp {
+  width: 195px;
+  height: 120px;
+  float: left;
 }
 
-.up-cen {
-  display: flex;
-  justify-content: space-around;
-  padding-right: 40px;
+.info-inp input {
+  padding: 6px;
+  margin-bottom: 21px;
+}
+
+.lits-card {
+  margin-left: 75px;
+}
+
+.bnt {
+  margin-left: 35px;
   padding-top: 20px;
 }
 
-.up-cen button {
-  height: 35px;
+.bnt button {
+  width: 90px;
+  height: 40px;
 }

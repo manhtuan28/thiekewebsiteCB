@@ -1,0 +1,23 @@
+.box1 {
+  float: left;
+}
+
+.box2 {
+  float: left;
+}
+
+.lable {
+  padding: 6px;
+}
+
+.inp {
+  padding: 5px;
+}
+
+.agree {
+  padding-top: 147px;
+}
+
+#submit {
+  width: 40%;
+}

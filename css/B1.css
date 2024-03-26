@@ -16,7 +16,7 @@ p {
   color: blue;
 }
 
-span {
+.span {
   background-color: yellow;
   font-weight: 900;
 }
