@@ -1,0 +1,60 @@
+body {
+  width: 750px;
+  height: 600px;
+  font-size: 17px;
+  margin: 0 auto;
+  margin-top: 20px;
+  border: 1px solid black;
+}
+
+.khungtren {
+  height: 100px;
+}
+
+.khungtren img {
+  width: 100%;
+  height: 100px;
+}
+
+.khungtrai {
+  width: 150px;
+  height: 500px;
+  text-align: center;
+  background-color: #ccc;
+  float: left;
+}
+
+.khungtrai h3 {
+  text-transform: uppercase;
+  margin: 0 auto;
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+
+.khungtrai a {
+  float: left;
+  padding-left: 5px;
+}
+
+.noidung {
+  width: 600px;
+  height: 500px;
+  text-align: justify;
+  margin: 0 auto;
+  float: right;
+}
+
+.noidung img {
+  width: 15%;
+  float: left;
+  padding-left: 15px;
+}
+
+.noidung h4 {
+  text-align: center;
+}
+
+.noidung p {
+  padding-left: 15px;
+  padding-right: 15px;
+}
