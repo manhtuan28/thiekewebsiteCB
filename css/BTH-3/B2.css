@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  width: 100%;
+  height: 100px;
+  background-color: rgb(216, 216, 255);
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.title {
+  width: 75%;
+}
+
+.title h3 {
+  color: white;
+  padding-bottom: 25px;
+}
+
+.title h1 {
+  color: blue;
+}
+
+.main {
+  height: 600px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu {
+  width: 11%;
+  background-color: rgb(161, 161, 247);
+  box-shadow: 2px 2px;
+}
+
+.menu ul {
+  border: 1px solid rgb(161, 161, 247);
+}
+
+.menu ul li {
+  list-style: none;
+  border: 1px solid rgb(161, 161, 247);
+  box-shadow: 2px 2px;
+  padding: 5px;
+}
+
+.menu ul li:hover {
+  background-color: rgb(151, 208, 241);
+}
+
+.menu a {
+  text-decoration: none;
+  color: white;
+}
+
+.silebar {
+  width: 15%;
+  border-left: 1px solid black;
+}
+
+.silebar ul li {
+  list-style: none;
+  padding: 5px;
+}
+
+.silebar .a1,
+.a2 {
+  text-decoration: none;
+  padding-left: 12px;
+}
+
+.silebar .a1 {
+  padding-bottom: 12px;
+}
+
+.silebar .silebar-img {
+  display: flex;
+  justify-content: center;
+}
+
+.silebar a:hover,
+.a1:hover,
+.a2:hover {
+  color: brown;
+}
+
+.footer {
+  width: 100%;
+  height: 35px;
+  background-color: rgb(121, 138, 236);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer span {
+  color: #4d4646e0;
+}
+
+.table-1 {
+  padding: 12px;
+}
+
+.th-1 {
+  background-color: rgb(172, 236, 109);
+  color: white;
+  border: 1px solid rgb(133, 199, 67);
+}
+
+.td-1 {
+  border: 1px solid rgb(133, 199, 67);
+  text-align: right;
+  padding-left: 15px;
+}
+
+.td-inp {
+  border: 1px solid rgb(133, 199, 67);
+  padding: 3px;
+}
