@@ -91,7 +91,7 @@
 
 .footer {
   width: 100%;
-  height: 35px;
+  height: 25px;
   background-color: rgb(121, 138, 236);
   display: flex;
   justify-content: center;
@@ -104,6 +104,7 @@
 
 .table-1 {
   padding: 12px;
+  width: 100%;
 }
 
 .th-1 {
@@ -116,9 +117,30 @@
   border: 1px solid rgb(133, 199, 67);
   text-align: right;
   padding-left: 15px;
+  color: rgb(84, 84, 182);
 }
 
 .td-inp {
   border: 1px solid rgb(133, 199, 67);
   padding: 3px;
+}
+
+.table-2 {
+  border: 1px solid black;
+  width: 100%;
+}
+
+.th-2 {
+  background-color: rgb(90, 238, 238);
+  color: white;
+  border: 1px solid rgb(90, 238, 238);
+}
+
+.th-21 {
+  background-color: rgb(131, 193, 247);
+  border: 1px solid rgb(90, 238, 238);
+}
+
+.td-2 {
+  border: 1px solid rgb(90, 238, 238);
 }
