@@ -12,6 +12,7 @@ function info() {
     note_pass = "Nhập mật khẩu vào???";
   } else if (matkhau.length <= 6) {
     note_pass = "Mật khẩu phải có ít nhất 6 ký tự";
+    document.getElementById("password").focus();
   } else {
     note_pass = "";
   }
