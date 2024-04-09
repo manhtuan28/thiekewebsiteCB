@@ -1,0 +1,38 @@
+* {
+  padding: 0;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+body {
+  padding-top: 120px;
+  color: rgb(221, 101, 141);
+}
+
+.main {
+  width: 450px;
+  height: 500px;
+  border: 3px solid palevioletred;
+  text-align: center;
+}
+
+.main .h3 {
+  height: 40px;
+  background-color: rgb(219, 95, 136);
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+.main table {
+  width: 100%;
+}
+
+.main input {
+  width: 90%;
+}
+
+.main .td-text {
+  text-align: right;
+  padding-right: 5px;
+}
